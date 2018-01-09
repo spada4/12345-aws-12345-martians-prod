@@ -8,5 +8,5 @@ variable "account_ids" {
 }
 
 variable "environment" {
-  default = "mah-terraform-teh-mars"
+  default = "mah-terraform"
 }

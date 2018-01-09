@@ -5,7 +5,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket  = "martian-prod-tfstate"
+    bucket  = "terraform-john1798-mah-bukkit-us-west-1"
     key     = "terraform.tfstate"
     encrypt = "true"
   }
